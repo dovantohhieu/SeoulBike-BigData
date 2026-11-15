@@ -1,0 +1,6 @@
+-r requirements-demo.txt
+pyspark==3.5.7
+# PySpark 3.5 dùng distutils; Python 3.12 cần bản tương thích từ setuptools.
+setuptools==84.0.0
+psutil==7.1.0
+matplotlib==3.10.8
